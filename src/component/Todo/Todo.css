@@ -1,0 +1,90 @@
+.todo{
+    width: 500px;
+    margin: 0 auto;
+    padding-top: 100px;
+    padding: 50px 50px 50px 50px;
+    background: rgb(246, 241, 241);
+}
+
+.todo_form{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.todo form > input {
+    width: 100%;
+    padding: 10px;
+    background: #fff;
+    border: 1px solid #dbdbdb;
+}
+
+.todo_form > button {
+    padding: 10px;
+    background: #007fce;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+.todo_list{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    list-style: none;
+    padding: 5px;
+    border-radius: 5px;
+    background: #eeeeee;
+    }
+  
+.todo_list > li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  transition: all 0.2s;
+  border-radius: 4px;
+  padding-right: 5px;
+
+   }
+
+   .todo_list li >span{
+    padding: 10px;
+   }
+   .todo_list li >span.completed {
+    text-decoration: line-through;
+   
+     }
+   .todo_list > li div{
+
+    display: flex;
+    align-items: center;
+    gap: 10px;
+   }
+
+   .todo_list  :hover{
+transform: scale(1.01);
+
+   }
+   .todo_list > li button {
+
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+   }
+
+   .todo_colors{
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+   }
+
+   .todo_colors > div{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    
+   }
+    
